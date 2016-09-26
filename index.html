@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="css/index.css" rel="stylesheet"/>
+	<title>Course Hub</title>
+</head>
+<body>	
+	<div class="container-fluid">
+		<div class="jumbotron" id="main">
+			<form class="navbar-form navbar-left" role="search">
+				<div class="form-group" >
+					<!--<input type="text" id="search-bar" class="form-control" placeholder="Search">-->
+					<input class="form-control" id="search-bar" type="text" placeholder="Search">
+				
+					<!--<img src="images/search.png" id="search"/>
+					<img src="images/bookmark.png" id="bookmark"/>-->
+				</div>
+			</form>
+             <form class="navbar-form navbar-right" role="search"  method="post">
+                 
+                 <div class="checkbox"  >
+                    <legend>Search by category</legend>
+                     <label><input class="check" type="checkbox" name="ios" id="io"> iOS</label><br/>
+                     <label><input type="checkbox"  class="check" name="android" id="an"> Android</label><br/>
+                     <label><input type="checkbox"  class="check" name="wd" id="wd"> Web Development</label><br/>
+                     <label><input type="checkbox"  class="check" name="se" id="se"> Software Engineering</label><br/>
+                </div>
+                    <br/></br>
+                    
+                    <br/>
+                     
+                <div class="checkbox" id="sort">
+                    <legend>Sort by</legend>
+                <label><input type=radio name="sorting">Price</label>
+                <label><input type=radio name="sorting">Rating</label>
+                </div>
+                
+            </form>
+        
+            <br/><br/>
+        
+            <br/><br/>
+               
+			<div class="container">
+                   <!-- <div class="col-md-12 course">
+						<p>TITLE</p>
+						<p> The above line is perl execution path in xampp
+								# The below line tells the browser, that this script will send html content.
+								# If you miss this line then it will show "malformed header from script" error.</p>
+					</div>
+                    <div class="col-md-12" id="clicked_word"></div>
+                    <img src="images/back.png" id="back" width="40px" height="40px"/>
+                    <img src="images/home.png" id="home" width="30px" height="30px"/>
+			</div>-->
+               
+		</div>
+	</div>
+    <script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>

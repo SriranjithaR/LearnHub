@@ -1,0 +1,178 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../fonts/BebasNeue.otf') format('truetype');
+}
+@font-face {
+  font-family: 'Pacifico';
+  src: url('../fonts/Pacifico.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Oregon LDO';
+  src: url('../fonts/exo/Exo-Light.otf') format('truetype');
+}
+
+#main{
+	position:relative;
+	//border:5px ridge #3e3e3e;
+	top:2em;
+	//height:46em;
+	//background-color:#CACABC;
+}
+#search-bar{
+	position:relative;
+	top:-1em;
+	left:-1em;
+	width:20em;
+	height:1.5em;
+	padding:1em 1em;
+	font-size:30px;
+	font-family:'Arial';
+}
+#search-bar:focus{
+	outline:none;
+	border-color: #009933;
+}
+#search{
+	position:relative;
+	top:-2em;
+	left:-9.5em;
+	width:3em;
+	height:3em;
+	cursor:pointer;
+}
+.container{
+	background-color:transparent;
+	position:relative;
+	top:5em;
+	left:-3em;
+	//width:60em;
+	//height:30em;
+}#course_title{
+	font-size:28px;
+	font-family:'Bebas Neue';
+   
+}
+#desc{
+	font-size:16px;
+    font-family:'Oregon LDO';
+    
+}
+#type{
+	font-family:'Pacifico';
+	color:red;
+	float:right;
+	font-size:20px;
+	border:2px inset brown;
+}
+#price{
+	font-size:20px;
+	float:right;
+	font-family:'Bebas Neue';
+	color:brown;
+}
+#rating{
+	font-family:'Arial';
+	border:5px solid green;
+	padding:5px;
+	border-radius:50%;
+	text-align:center;
+	font-weight:bold;
+	font-size:17px;
+}
+#res{
+	position:absolute;
+	font-family:'Bebas Neue';
+}
+.course{
+	position:relative;
+	width:50em;
+	height:13em;
+	padding:7px;
+	background-color:white;
+	cursor:pointer;
+    border:1px solid #33D6AD;
+	border-radius:10px;
+	//z-index:9999;
+	display:none;
+}
+.checkbox{
+    z-index: 9999;
+}
+
+#check{
+    background-color : #b3cccc;
+    padding: 8px;
+    border-radius: 5px;
+}
+#sort{
+    background-color : #b3cccc;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#word{
+	width:30em;
+	height:3em;
+	background-color:white;
+	cursor:pointer;
+	
+}
+.word{
+    height:3em;
+    background-color:white;
+    cursor:pointer;
+    border:1px solid #33D6AD;
+	font-size:20px;
+	font-family:'Pacifico';
+    display:none;
+}
+#w1{
+    top:-5em;
+    left:1em;
+}
+#w2{
+    top:-4em;
+    left:2em;
+}
+#w3{
+    top:-3em;
+    left:3em;
+}
+#w4{
+    top:-2em;
+    left:4em;
+}
+#w5{
+    top:-1em;
+    left:5em;
+}
+#w6{
+    left:6em;
+}
+#w7{
+    top:1em;
+    left:7em;
+}
+#clicked_word{
+    top:-5em;
+    left:1em;
+    height:18em;
+    background-color:white;
+    cursor:pointer;
+    border:1px solid #33D6AD;
+    display:none;
+}
+#back{
+    position:relative;
+    top:20em;
+    left:-25em;
+    cursor:pointer;
+    display:none;
+}
+#home{
+    position:relative;
+    top:20em;
+    left:-13em;
+    cursor:pointer;
+    display:none;
+}
